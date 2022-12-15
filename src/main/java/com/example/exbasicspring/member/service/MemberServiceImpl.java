@@ -6,8 +6,12 @@ import com.example.exbasicspring.member.repository.MemoryMemberRepository;
 
 public class MemberServiceImpl implements MemberService {
 
-    //TODO: OCP, DIP 위배 -> 추후 수정
-    private final MemberRepository memberRepository = new MemoryMemberRepository();
+    private final MemberRepository memberRepository;
+
+    //생성자 주입 방식으로 수정 -> OCP, DIP 만족
+    public MemberServiceImpl(MemberRepository memberRepository) {
+        this.memberRepository = memberRepository;
+    }
 
     @Override
     public void join(Member member) {
