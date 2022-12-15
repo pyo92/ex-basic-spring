@@ -1,7 +1,9 @@
 package com.example.exbasicspring.service;
 
-import com.example.exbasicspring.domain.Grade;
-import com.example.exbasicspring.domain.Member;
+import com.example.exbasicspring.member.domain.Grade;
+import com.example.exbasicspring.member.domain.Member;
+import com.example.exbasicspring.member.service.MemberService;
+import com.example.exbasicspring.member.service.MemberServiceImpl;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;

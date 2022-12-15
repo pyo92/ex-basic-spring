@@ -1,8 +1,8 @@
-package com.example.exbasicspring.service;
+package com.example.exbasicspring.member.service;
 
-import com.example.exbasicspring.domain.Member;
-import com.example.exbasicspring.repository.MemberRepository;
-import com.example.exbasicspring.repository.MemoryMemberRepository;
+import com.example.exbasicspring.member.domain.Member;
+import com.example.exbasicspring.member.repository.MemberRepository;
+import com.example.exbasicspring.member.repository.MemoryMemberRepository;
 
 public class MemberServiceImpl implements MemberService {
 
