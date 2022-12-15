@@ -1,6 +1,6 @@
-package com.example.exbasicspring.repository;
+package com.example.exbasicspring.member.repository;
 
-import com.example.exbasicspring.domain.Member;
+import com.example.exbasicspring.member.domain.Member;
 
 import java.util.HashMap;
 import java.util.Map;

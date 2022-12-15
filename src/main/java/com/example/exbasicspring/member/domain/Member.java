@@ -1,4 +1,4 @@
-package com.example.exbasicspring.domain;
+package com.example.exbasicspring.member.domain;
 
 public class Member {
 
